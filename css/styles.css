@@ -181,6 +181,7 @@ button {
     background-color: var(--iris);
     border-radius: 200px;
     padding: 12px;
+    margin-top: 16px;
 }
 .member-list-contacts-item-svg {
     width: 100%;
