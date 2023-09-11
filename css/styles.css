@@ -176,14 +176,18 @@ button {
 }
 .member-list-contacts-item {
     display: inline-block;
-    align-items: center;
-    justify-content: center;
     width: 40px;
     height: 40px;
     background-color: var(--iris);
     border-radius: 200px;
     padding: 12px;
-    flex-direction: row;
+}
+.member-list-contacts-item-svg {
+    width: 100%;
+    height: 100%;
+}
+.member-list-contacts-item:hover {
+    background-color: var(--green);
 }
 .member-list-contacts-item-link {
     width: 100%;
@@ -200,14 +204,23 @@ button {
     align-items: center;
     gap: 24px;
 }
+.customer-list-item-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
 .customer-list-item {
     border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    width: 100%;
-}
-.customer-icon {
+    border: 1px solid var(--lightslate);
     width: 168px;
     height: 88px;
+    display: block;
+}
+.customer-icon {
+    width: 104px;
+    height: 56px;
 }
 .customer-maintext {
     font-size: 36px;
@@ -281,6 +294,10 @@ button {
     align-items: flex-start;
     display: flex;
     gap: 8px;
+}
+.feature-lists-item-icon-svg {
+    width: 64px;
+    height: 64px;
 }
 .footer-logo {
     text-decoration: none;
