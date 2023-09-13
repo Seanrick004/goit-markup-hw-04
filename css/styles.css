@@ -188,7 +188,6 @@ button {
     background-color: var(--iris);
     border-radius: 200px;
     padding: 12px;
-    margin-top: 16px;
 }
 .footer-list-contacts-item {
     display: inline-block;
@@ -197,7 +196,7 @@ button {
     background-color: var(--iris);
     border-radius: 200px;
     padding: 12px;
-    margin-top: 16px;
+   
 }
 .member-list-contacts-item-svg {
     width: 16px;
@@ -217,6 +216,7 @@ button {
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-top: 16px;
 }
 .customer-list {
     display: inline-flex;
@@ -231,6 +231,7 @@ button {
     justify-content: center;
     align-items: center;
     color: var(--lightslate);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .customer-list-item {
     border-radius: 4px;
@@ -238,7 +239,7 @@ button {
     width: 168px;
     height: 88px;
     display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-list-item:hover {
     border-color: var(--ocean);
@@ -277,6 +278,7 @@ button {
 }
 .container-footer {
     display: flex;
+    gap: 120px;
 }
 .members-section-maintext {
     text-align: center;
@@ -487,7 +489,6 @@ footer {
 }
 .footer-description {
     color: var(--cloud);
-    width: 264px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
     font-size: 16px;
@@ -553,8 +554,6 @@ footer {
     flex-shrink: 0;
     display: flex;
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
 Show 3 more colors
 
 Ellipse
@@ -575,6 +574,9 @@ Image · 2,000 x 1,335
     border-left: 1px solid var(--cornflower);
     border-bottom: 1px solid var(--cornflower);
     background: var(--white);
+}
+.projects-lists-item-container:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .projects-lists-item-img {
     width: 360px;
